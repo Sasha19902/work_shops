@@ -12,12 +12,12 @@ public class DoubleEndedQueue<T> implements Iterable<T>{
         tail = null;
     }
 
-    public Node<T> getHead(){
-        return head;
+    public T getHead(){
+        return head.getInfo();
     }
 
-    public Node<T> getTail(){
-        return tail;
+    public T getTail(){
+        return tail.getInfo();
     }
 
     public void addStart(T element) {
