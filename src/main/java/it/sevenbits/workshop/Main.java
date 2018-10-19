@@ -36,6 +36,5 @@ public class Main {
 
         System.out.println("<----------------FOREACH OUT--------------------->");
         doubleEndedQueue.forEach(System.out::println);
->>>>>>> ak/first-workshop-v2
     }
 }
